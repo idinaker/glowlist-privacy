@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - GlowList</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card: #1e293b;
+            --text: #f8fafc;
+            --muted: #cbd5e1;
+            --accent: #38bdf8;
+            --border: #334155;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.65;
+            margin: 0;
+            padding: 32px 16px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 32px 40px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            color: var(--accent);
+            margin-top: 0;
+            font-size: 2rem;
+        }
+        h2 {
+            color: var(--accent);
+            font-size: 1.25rem;
+            margin-top: 28px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 6px;
+        }
+        p, li {
+            color: var(--muted);
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        strong {
+            color: var(--text);
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 0.9rem;
+            color: var(--muted);
+            margin-bottom: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for GlowList</h1>
+        <p class="meta"><strong>Effective Date:</strong> October 20, 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> October 20, 2026</p>
+
+        <p>Welcome to <strong>GlowList</strong> ("we," "our," or "us"). GlowList is a local-first, gesture-driven to-do list and reminder application for Android. Your privacy is critically important to us. This Privacy Policy explains how information is collected, used, stored, and protected when you use the GlowList mobile application.</p>
+
+        <h2>1. Local-First Data Storage</h2>
+        <p>By default, GlowList operates as an offline, local-first application:</p>
+        <ul>
+            <li><strong>Lists, Tasks, and Reminders:</strong> All lists, tasks, completion states, and scheduled reminders you create are stored locally on your device in an internal database.</li>
+            <li><strong>App Preferences:</strong> Your theme selection, card size, haptic feedback settings, and display preferences are stored locally on your device using Android DataStore.</li>
+            <li>You can use the core features of GlowList without creating an account or transmitting your task data to any external server.</li>
+        </ul>
+
+        <h2>2. Information We Collect (Optional Features)</h2>
+        <p>We only collect personal or user-generated data off-device when you explicitly choose to use optional account, cloud backup, or subscription features:</p>
+        <ul>
+            <li><strong>Account Information (Optional Google Sign-In):</strong> If you choose to sign in using Google Sign-In, we receive your basic Google profile information (such as your name, email address, and unique account identifier) via Firebase Authentication solely to authenticate your account and associate it with your cloud backups.</li>
+            <li><strong>Cloud Backup Data (Optional):</strong> If you are a Premium user and explicitly trigger a manual "Backup now" or "Restore from cloud" action, your to-do lists and task items are transmitted over an encrypted connection and stored in Google Cloud Firestore under your authenticated user ID.</li>
+            <li><strong>Purchases and Subscriptions:</strong> If you purchase a GlowList Premium subscription, the transaction is processed directly by <strong>Google Play Billing</strong>. We do not collect, process, or store your credit card number, bank account details, or billing address. We only receive confirmation of your subscription entitlement status from Google Play.</li>
+        </ul>
+
+        <h2>3. Device Permissions We Use</h2>
+        <p>GlowList requests only the minimum Android permissions required to deliver its features:</p>
+        <ul>
+            <li><strong>Post Notifications (<code>android.permission.POST_NOTIFICATIONS</code>):</strong> Used solely to display local reminder notifications at the date and time you schedule for a task.</li>
+            <li><strong>Receive Boot Completed (<code>android.permission.RECEIVE_BOOT_COMPLETED</code>):</strong> Used solely to reschedule your active local task reminders after your device restarts so you do not miss scheduled notifications.</li>
+            <li><strong>Internet (<code>android.permission.INTERNET</code>):</strong> Used only to verify subscription entitlements with Google Play Billing and, if you opt in, to authenticate with Google Sign-In and perform cloud backup/restore.</li>
+        </ul>
+
+        <h2>4. How We Use Information</h2>
+        <p>Any information processed by GlowList is used strictly for the following purposes:</p>
+        <ul>
+            <li>Providing, maintaining, and operating list management and reminder functionality.</li>
+            <li>Verifying and unlocking GlowList Premium subscription features (unlimited lists, additional themes, and cloud backup).</li>
+            <li>Allowing you to back up and restore your task lists across devices when signed in.</li>
+            <li>Responding to user support and data deletion requests.</li>
+        </ul>
+
+        <h2>5. Data Sharing and Third-Party Services</h2>
+        <p><strong>We do not sell, rent, trade, or share your personal data with third-party advertisers or data brokers.</strong> GlowList contains no third-party advertising SDKs.</p>
+        <p>To support optional authentication, cloud backup, and subscriptions, the app integrates with standard Google platform services:</p>
+        <ul>
+            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Play Services &amp; Google Play Billing</a></li>
+            <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Google Firebase (Authentication &amp; Cloud Firestore)</a></li>
+        </ul>
+
+        <h2>6. Data Security</h2>
+        <p>All data transmitted between the app and Google/Firebase servers (when using Google Sign-In, Play Billing, or Cloud Backup) is encrypted in transit using industry-standard HTTPS/TLS encryption.</p>
+
+        <h2>7. Data Retention and Deletion</h2>
+        <ul>
+            <li><strong>Local Data:</strong> You have full control over local data stored on your device. You can delete individual lists or items at any time within the app, or erase all local data immediately by clearing the app's storage in Android Settings or uninstalling the application.</li>
+            <li><strong>Account &amp; Cloud Backup Data:</strong> If you have signed in with Google and backed up data to the cloud, you may request complete deletion of your account record and all cloud-stored lists/items at any time by contacting us at the support email below or through our <a href="data-deletion.html">Account &amp; Data Deletion page</a>. Deletion requests are processed within 30 days.</li>
+        </ul>
+
+        <h2>8. Children's Privacy</h2>
+        <p>GlowList is intended for general audiences (ages 13 and older) and is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that personal data from a child under 13 has been collected, we will promptly delete it.</p>
+
+        <h2>9. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time to reflect changes in app functionality or regulatory requirements. Any updates will be posted on this page with an updated "Last Updated" date.</p>
+
+        <h2>10. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, your data, or wish to submit a data deletion request, please contact the developer via the support email listed on the GlowList Google Play Store listing page or via GitHub at <a href="https://github.com/idinaker" target="_blank" rel="noopener">https://github.com/idinaker</a>.</p>
+    </div>
+</body>
+</html>
